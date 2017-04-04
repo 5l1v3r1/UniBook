@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_camera"
+        android:icon="@mipmap/map"
+        android:title="Map" />
+    <item
+        android:id="@+id/nav_gallery"
+        android:icon="@mipmap/search"
+        android:title="CuMoodle" />
+    <item
+        android:id="@+id/nav_slideshow"
+        android:icon="@mipmap/student_portal"
+        android:title="Student Portal" />
+    <item
+        android:id="@+id/nav_manage"
+        android:icon="@mipmap/timetable"
+        android:title="TimeTable" />
+
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@mipmap/chat"
+        android:title="Chat" />
+    <item
+        android:id="@+id/nav_library"
+        android:icon="@mipmap/library"
+        android:title="Library" />
+
+    <item
+        android:id="@+id/nav_course"
+        android:icon="@mipmap/course_detail"
+        android:title="Course Details" />
+
+
+    <item
+        android:id="@+id/nav_help"
+        android:icon="@mipmap/help"
+        android:title="Help" />
+
+
+    <item
+        android:id="@+id/nav_setting"
+        android:icon="@mipmap/settings"
+        android:title="Settings" />
+
+
+</menu>

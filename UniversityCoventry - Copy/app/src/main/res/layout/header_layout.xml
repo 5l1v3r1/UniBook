@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:gravity="center"
+    android:background="@drawable/loginbg">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/loginbg"
+        android:src="@color/black_80"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/mProfilePicture"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="8dp"
+        android:padding="2dp"
+        android:src="@mipmap/person"
+        android:scaleType="centerCrop" />
+
+    <TextView
+            android:id="@+id/sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="SID : 6670579"
+            android:layout_below="@+id/mUserName"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp"/>
+
+    <Spinner
+        android:id="@+id/emailSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sid"
+        android:textSize="17dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="8dp"
+        android:background="#00000000"
+        android:prompt="@string/app_name"/>
+
+    <TextView
+        android:id="@+id/mUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Tomasz Prabucki"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_below="@+id/mProfilePicture"
+        android:layout_alignLeft="@+id/mProfilePicture"
+        android:layout_alignStart="@+id/mProfilePicture" />
+
+</RelativeLayout>
